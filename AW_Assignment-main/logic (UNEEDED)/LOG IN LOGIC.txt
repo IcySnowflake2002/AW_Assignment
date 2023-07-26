@@ -1,0 +1,21 @@
+LOGIC
+
+START
+
+if Log In is pressed
+	if Username is empty OR Password is empty
+		print "Please fill out all fields"
+		return
+	else
+		loop through database
+		if match is found for Username
+			if match is NOT found for Password
+				print "Incorrect Username or Password"
+				return
+			else
+				Take to Profile Page
+else
+	Take to Sign Up Page
+
+END
+	
